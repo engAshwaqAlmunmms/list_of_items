@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED288D722D30A2BE0067AA2A /* DrahimTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */; };
+		ED288D742D30A2BE0067AA2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D732D30A2BE0067AA2A /* ContentView.swift */; };
+		ED288D762D30A2C00067AA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED288D752D30A2C00067AA2A /* Assets.xcassets */; };
+		ED288D792D30A2C00067AA2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED288D782D30A2C00067AA2A /* Preview Assets.xcassets */; };
+		ED288D832D30A2C00067AA2A /* DrahimTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D822D30A2C00067AA2A /* DrahimTaskTests.swift */; };
+		ED288D8D2D30A2C00067AA2A /* DrahimTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D8C2D30A2C00067AA2A /* DrahimTaskUITests.swift */; };
+		ED288D8F2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D8E2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED288D7F2D30A2C00067AA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED288D662D30A2BE0067AA2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED288D6D2D30A2BE0067AA2A;
+			remoteInfo = DrahimTask;
+		};
+		ED288D892D30A2C00067AA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED288D662D30A2BE0067AA2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED288D6D2D30A2BE0067AA2A;
+			remoteInfo = DrahimTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED288D6E2D30A2BE0067AA2A /* DrahimTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrahimTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimTaskApp.swift; sourceTree = "<group>"; };
+		ED288D732D30A2BE0067AA2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED288D752D30A2C00067AA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED288D782D30A2C00067AA2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED288D7E2D30A2C00067AA2A /* DrahimTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrahimTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED288D822D30A2C00067AA2A /* DrahimTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimTaskTests.swift; sourceTree = "<group>"; };
+		ED288D882D30A2C00067AA2A /* DrahimTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrahimTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED288D8C2D30A2C00067AA2A /* DrahimTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimTaskUITests.swift; sourceTree = "<group>"; };
+		ED288D8E2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED288D6B2D30A2BE0067AA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED288D7B2D30A2C00067AA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED288D852D30A2C00067AA2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED288D652D30A2BE0067AA2A = {
+			isa = PBXGroup;
+			children = (
+				ED288D702D30A2BE0067AA2A /* DrahimTask */,
+				ED288D812D30A2C00067AA2A /* DrahimTaskTests */,
+				ED288D8B2D30A2C00067AA2A /* DrahimTaskUITests */,
+				ED288D6F2D30A2BE0067AA2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED288D6F2D30A2BE0067AA2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D6E2D30A2BE0067AA2A /* DrahimTask.app */,
+				ED288D7E2D30A2C00067AA2A /* DrahimTaskTests.xctest */,
+				ED288D882D30A2C00067AA2A /* DrahimTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED288D702D30A2BE0067AA2A /* DrahimTask */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */,
+				ED288D732D30A2BE0067AA2A /* ContentView.swift */,
+				ED288D752D30A2C00067AA2A /* Assets.xcassets */,
+				ED288D772D30A2C00067AA2A /* Preview Content */,
+			);
+			path = DrahimTask;
+			sourceTree = "<group>";
+		};
+		ED288D772D30A2C00067AA2A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D782D30A2C00067AA2A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED288D812D30A2C00067AA2A /* DrahimTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D822D30A2C00067AA2A /* DrahimTaskTests.swift */,
+			);
+			path = DrahimTaskTests;
+			sourceTree = "<group>";
+		};
+		ED288D8B2D30A2C00067AA2A /* DrahimTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D8C2D30A2C00067AA2A /* DrahimTaskUITests.swift */,
+				ED288D8E2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift */,
+			);
+			path = DrahimTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED288D6D2D30A2BE0067AA2A /* DrahimTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED288D922D30A2C00067AA2A /* Build configuration list for PBXNativeTarget "DrahimTask" */;
+			buildPhases = (
+				ED288D6A2D30A2BE0067AA2A /* Sources */,
+				ED288D6B2D30A2BE0067AA2A /* Frameworks */,
+				ED288D6C2D30A2BE0067AA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrahimTask;
+			productName = DrahimTask;
+			productReference = ED288D6E2D30A2BE0067AA2A /* DrahimTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED288D7D2D30A2C00067AA2A /* DrahimTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED288D952D30A2C00067AA2A /* Build configuration list for PBXNativeTarget "DrahimTaskTests" */;
+			buildPhases = (
+				ED288D7A2D30A2C00067AA2A /* Sources */,
+				ED288D7B2D30A2C00067AA2A /* Frameworks */,
+				ED288D7C2D30A2C00067AA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED288D802D30A2C00067AA2A /* PBXTargetDependency */,
+			);
+			name = DrahimTaskTests;
+			productName = DrahimTaskTests;
+			productReference = ED288D7E2D30A2C00067AA2A /* DrahimTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED288D872D30A2C00067AA2A /* DrahimTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED288D982D30A2C00067AA2A /* Build configuration list for PBXNativeTarget "DrahimTaskUITests" */;
+			buildPhases = (
+				ED288D842D30A2C00067AA2A /* Sources */,
+				ED288D852D30A2C00067AA2A /* Frameworks */,
+				ED288D862D30A2C00067AA2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED288D8A2D30A2C00067AA2A /* PBXTargetDependency */,
+			);
+			name = DrahimTaskUITests;
+			productName = DrahimTaskUITests;
+			productReference = ED288D882D30A2C00067AA2A /* DrahimTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED288D662D30A2BE0067AA2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ED288D6D2D30A2BE0067AA2A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					ED288D7D2D30A2C00067AA2A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ED288D6D2D30A2BE0067AA2A;
+					};
+					ED288D872D30A2C00067AA2A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = ED288D6D2D30A2BE0067AA2A;
+					};
+				};
+			};
+			buildConfigurationList = ED288D692D30A2BE0067AA2A /* Build configuration list for PBXProject "DrahimTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED288D652D30A2BE0067AA2A;
+			productRefGroup = ED288D6F2D30A2BE0067AA2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED288D6D2D30A2BE0067AA2A /* DrahimTask */,
+				ED288D7D2D30A2C00067AA2A /* DrahimTaskTests */,
+				ED288D872D30A2C00067AA2A /* DrahimTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED288D6C2D30A2BE0067AA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED288D792D30A2C00067AA2A /* Preview Assets.xcassets in Resources */,
+				ED288D762D30A2C00067AA2A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED288D7C2D30A2C00067AA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED288D862D30A2C00067AA2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED288D6A2D30A2BE0067AA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED288D742D30A2BE0067AA2A /* ContentView.swift in Sources */,
+				ED288D722D30A2BE0067AA2A /* DrahimTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED288D7A2D30A2C00067AA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED288D832D30A2C00067AA2A /* DrahimTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED288D842D30A2C00067AA2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED288D8F2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift in Sources */,
+				ED288D8D2D30A2C00067AA2A /* DrahimTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED288D802D30A2C00067AA2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED288D6D2D30A2BE0067AA2A /* DrahimTask */;
+			targetProxy = ED288D7F2D30A2C00067AA2A /* PBXContainerItemProxy */;
+		};
+		ED288D8A2D30A2C00067AA2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED288D6D2D30A2BE0067AA2A /* DrahimTask */;
+			targetProxy = ED288D892D30A2C00067AA2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED288D902D30A2C00067AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED288D912D30A2C00067AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED288D932D30A2C00067AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrahimTask/Preview Content\"";
+				DEVELOPMENT_TEAM = JH92DSYAHR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AshwaqAlmunmms.DrahimTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED288D942D30A2C00067AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DrahimTask/Preview Content\"";
+				DEVELOPMENT_TEAM = JH92DSYAHR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AshwaqAlmunmms.DrahimTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED288D962D30A2C00067AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH92DSYAHR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AshwaqAlmunmms.DrahimTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrahimTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrahimTask";
+			};
+			name = Debug;
+		};
+		ED288D972D30A2C00067AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH92DSYAHR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AshwaqAlmunmms.DrahimTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrahimTask.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DrahimTask";
+			};
+			name = Release;
+		};
+		ED288D992D30A2C00067AA2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH92DSYAHR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AshwaqAlmunmms.DrahimTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrahimTask;
+			};
+			name = Debug;
+		};
+		ED288D9A2D30A2C00067AA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JH92DSYAHR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AshwaqAlmunmms.DrahimTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DrahimTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED288D692D30A2BE0067AA2A /* Build configuration list for PBXProject "DrahimTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED288D902D30A2C00067AA2A /* Debug */,
+				ED288D912D30A2C00067AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED288D922D30A2C00067AA2A /* Build configuration list for PBXNativeTarget "DrahimTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED288D932D30A2C00067AA2A /* Debug */,
+				ED288D942D30A2C00067AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED288D952D30A2C00067AA2A /* Build configuration list for PBXNativeTarget "DrahimTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED288D962D30A2C00067AA2A /* Debug */,
+				ED288D972D30A2C00067AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED288D982D30A2C00067AA2A /* Build configuration list for PBXNativeTarget "DrahimTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED288D992D30A2C00067AA2A /* Debug */,
+				ED288D9A2D30A2C00067AA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED288D662D30A2BE0067AA2A /* Project object */;
+}
