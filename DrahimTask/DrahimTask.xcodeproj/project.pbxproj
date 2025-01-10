@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		ED288D722D30A2BE0067AA2A /* DrahimTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */; };
-		ED288D742D30A2BE0067AA2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D732D30A2BE0067AA2A /* ContentView.swift */; };
+		ED288D742D30A2BE0067AA2A /* DrahimServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D732D30A2BE0067AA2A /* DrahimServicesView.swift */; };
 		ED288D762D30A2C00067AA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED288D752D30A2C00067AA2A /* Assets.xcassets */; };
 		ED288D792D30A2C00067AA2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED288D782D30A2C00067AA2A /* Preview Assets.xcassets */; };
 		ED288D832D30A2C00067AA2A /* DrahimTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D822D30A2C00067AA2A /* DrahimTaskTests.swift */; };
 		ED288D8D2D30A2C00067AA2A /* DrahimTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D8C2D30A2C00067AA2A /* DrahimTaskUITests.swift */; };
 		ED288D8F2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D8E2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift */; };
+		ED288D9C2D30AFE30067AA2A /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D9B2D30AFE30067AA2A /* WelcomeView.swift */; };
+		ED288D9E2D30B0070067AA2A /* DrahimServicesCellsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D9D2D30B0060067AA2A /* DrahimServicesCellsView.swift */; };
+		ED288DA02D30B03D0067AA2A /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED288D9F2D30B03D0067AA2A /* ServiceViewModel.swift */; };
+		EDCC1D442D31BF0F0001A891 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = EDCC1D432D31BF0F0001A891 /* Data.json */; };
+		EDCC1D472D31C3C00001A891 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCC1D462D31C3C00001A891 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		ED288D6E2D30A2BE0067AA2A /* DrahimTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrahimTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimTaskApp.swift; sourceTree = "<group>"; };
-		ED288D732D30A2BE0067AA2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED288D732D30A2BE0067AA2A /* DrahimServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimServicesView.swift; sourceTree = "<group>"; };
 		ED288D752D30A2C00067AA2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED288D782D30A2C00067AA2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED288D7E2D30A2C00067AA2A /* DrahimTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrahimTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		ED288D882D30A2C00067AA2A /* DrahimTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrahimTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED288D8C2D30A2C00067AA2A /* DrahimTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimTaskUITests.swift; sourceTree = "<group>"; };
 		ED288D8E2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED288D9B2D30AFE30067AA2A /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		ED288D9D2D30B0060067AA2A /* DrahimServicesCellsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrahimServicesCellsView.swift; sourceTree = "<group>"; };
+		ED288D9F2D30B03D0067AA2A /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		EDCC1D432D31BF0F0001A891 /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		EDCC1D462D31C3C00001A891 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */,
-				ED288D732D30A2BE0067AA2A /* ContentView.swift */,
+				ED288D732D30A2BE0067AA2A /* DrahimServicesView.swift */,
 				ED288D752D30A2C00067AA2A /* Assets.xcassets */,
 				ED288D772D30A2C00067AA2A /* Preview Content */,
+				ED288D9B2D30AFE30067AA2A /* WelcomeView.swift */,
+				ED288D9D2D30B0060067AA2A /* DrahimServicesCellsView.swift */,
+				ED288D9F2D30B03D0067AA2A /* ServiceViewModel.swift */,
+				EDCC1D452D31C3B30001A891 /* Model */,
+				EDCC1D432D31BF0F0001A891 /* Data.json */,
 			);
 			path = DrahimTask;
 			sourceTree = "<group>";
@@ -125,6 +140,14 @@
 				ED288D8E2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift */,
 			);
 			path = DrahimTaskUITests;
+			sourceTree = "<group>";
+		};
+		EDCC1D452D31C3B30001A891 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDCC1D462D31C3C00001A891 /* Models.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +256,7 @@
 			files = (
 				ED288D792D30A2C00067AA2A /* Preview Assets.xcassets in Resources */,
 				ED288D762D30A2C00067AA2A /* Assets.xcassets in Resources */,
+				EDCC1D442D31BF0F0001A891 /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED288D742D30A2BE0067AA2A /* ContentView.swift in Sources */,
+				ED288D742D30A2BE0067AA2A /* DrahimServicesView.swift in Sources */,
+				ED288D9C2D30AFE30067AA2A /* WelcomeView.swift in Sources */,
 				ED288D722D30A2BE0067AA2A /* DrahimTaskApp.swift in Sources */,
+				ED288D9E2D30B0070067AA2A /* DrahimServicesCellsView.swift in Sources */,
+				ED288DA02D30B03D0067AA2A /* ServiceViewModel.swift in Sources */,
+				EDCC1D472D31C3C00001A891 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
