@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "services.assetsManagement.dark.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
