@@ -1,0 +1,49 @@
+{
+  "sections": [
+    {
+      "sectionTitle": "General Services",
+      "services": [
+        {
+          "title": "Investment",
+          "subTitle": "See More",
+          "image": "services.assetsManagement"
+        },
+        {
+          "title": "Portfolio Management",
+          "subTitle": "Learn More",
+          "image": "services.commitments"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Consulting Services",
+      "services": [
+        {
+          "title": "Business Strategy",
+          "subTitle": "Get Started",
+          "image": "services.createBudget"
+        },
+        {
+          "title": "Market Research",
+          "subTitle": "Discover More",
+          "image": "services.createCustomPortfolio"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Technical Solutions",
+      "services": [
+        {
+          "title": "Cloud Computing",
+          "subTitle": "Explore Now",
+          "image": "services.createManualAccount"
+        },
+        {
+          "title": "Cybersecurity",
+          "subTitle": "Secure Your Business",
+          "image": "services.createPortfolio"
+        }
+      ]
+    }
+  ]
+}
