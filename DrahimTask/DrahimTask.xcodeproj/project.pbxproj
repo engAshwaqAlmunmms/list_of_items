@@ -104,15 +104,11 @@
 		ED288D702D30A2BE0067AA2A /* DrahimTask */ = {
 			isa = PBXGroup;
 			children = (
-				ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */,
-				ED288D732D30A2BE0067AA2A /* DrahimServicesView.swift */,
-				ED288D752D30A2C00067AA2A /* Assets.xcassets */,
-				ED288D772D30A2C00067AA2A /* Preview Content */,
-				ED288D9B2D30AFE30067AA2A /* WelcomeView.swift */,
-				ED288D9D2D30B0060067AA2A /* DrahimServicesCellsView.swift */,
-				ED288D9F2D30B03D0067AA2A /* ServiceViewModel.swift */,
+				ED5BFCBA2D331BED00B3FF10 /* View */,
 				EDCC1D452D31C3B30001A891 /* Model */,
-				EDCC1D432D31BF0F0001A891 /* Data.json */,
+				ED5BFCBC2D331C1500B3FF10 /* View Model */,
+				ED5BFCBB2D331C0300B3FF10 /* Helper */,
+				ED288D772D30A2C00067AA2A /* Preview Content */,
 			);
 			path = DrahimTask;
 			sourceTree = "<group>";
@@ -140,6 +136,34 @@
 				ED288D8E2D30A2C00067AA2A /* DrahimTaskUITestsLaunchTests.swift */,
 			);
 			path = DrahimTaskUITests;
+			sourceTree = "<group>";
+		};
+		ED5BFCBA2D331BED00B3FF10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D712D30A2BE0067AA2A /* DrahimTaskApp.swift */,
+				ED288D732D30A2BE0067AA2A /* DrahimServicesView.swift */,
+				ED288D9B2D30AFE30067AA2A /* WelcomeView.swift */,
+				ED288D9D2D30B0060067AA2A /* DrahimServicesCellsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED5BFCBB2D331C0300B3FF10 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D752D30A2C00067AA2A /* Assets.xcassets */,
+				EDCC1D432D31BF0F0001A891 /* Data.json */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ED5BFCBC2D331C1500B3FF10 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED288D9F2D30B03D0067AA2A /* ServiceViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 		EDCC1D452D31C3B30001A891 /* Model */ = {
