@@ -7,13 +7,24 @@
 
 import SwiftUI
 
-// search
-
 struct DrahimServicesView: View {
     
     @Environment(\.colorScheme) var colorScheme
     @ObservedObject var viewModel = ServiceViewModel()
+    @State private var searchText = ""
+    
+    var filteredSections: [Sections] {
+        guard !searchText.isEmpty else {
+            return viewModel.content?.sections ?? []
+        }
         
+        return viewModel.content?.sections.filter { section in
+            section.sectionTitle.localizedCaseInsensitiveContains(searchText) ||
+            section.services.contains(where: { $0.title.localizedCaseInsensitiveContains(searchText) }) ||
+            section.services.contains(where: { $0.subTitle.localizedCaseInsensitiveContains(searchText) })
+        } ?? []
+    }
+    
     var body: some View {
         NavigationView {
             VStack(alignment: .leading, spacing: 0) {
@@ -22,7 +33,7 @@ struct DrahimServicesView: View {
                     .font(.largeTitle)
                     .padding(.leading)
                 List {
-                    ForEach(viewModel.content?.sections ?? [], id: \.self) { section in
+                    ForEach(filteredSections, id: \.self) { section in
                         Section(header: Text(section.sectionTitle).bold().padding(.leading, -20)) {
                             ForEach(section.services, id: \.self) { service in
                                 DrahimServicesCellsView(serviceImage: .constant(service.image),
@@ -37,6 +48,7 @@ struct DrahimServicesView: View {
                 .scrollContentBackground(.hidden)
                 .background(Color.clear)
             }
+            .searchable(text: $searchText)
             .background(colorScheme == .dark ? Color(UIColor.black): Color(red: 238/255, green: 238/255, blue: 238/255))
             .onAppear {
                 viewModel.load()

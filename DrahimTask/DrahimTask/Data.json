@@ -9,9 +9,19 @@
           "image": "services.assetsManagement"
         },
         {
+          "title": "Investment",
+          "subTitle": "See More",
+          "image": "services.createBudget"
+        },
+        {
+          "title": "Investment",
+          "subTitle": "See More",
+          "image": "services.createCustomPortfolio"
+        },
+        {
           "title": "Portfolio Management",
           "subTitle": "Learn More",
-          "image": "services.commitments"
+          "image": "services.createManualAccount"
         }
       ]
     },
@@ -19,14 +29,29 @@
       "sectionTitle": "Consulting Services",
       "services": [
         {
-          "title": "Business Strategy",
+          "title": "Portfolio Management",
           "subTitle": "Get Started",
-          "image": "services.createBudget"
+          "image": "services.createPortfolio"
         },
         {
-          "title": "Market Research",
+          "title": "Business Strategy",
+          "subTitle": "Get Started",
+          "image": "services.createStockTrackingPortfolio"
+        },
+        {
+          "title": "drahimGPT Strategy",
+          "subTitle": "Get Started",
+          "image": "services.drahimGPT"
+        },
+        {
+          "title": "Business Strategy",
+          "subTitle": "Get Started",
+          "image": "services.drahimPlus"
+        },
+        {
+          "title": "drahimGPT Research",
           "subTitle": "Discover More",
-          "image": "services.createCustomPortfolio"
+          "image": "services.investmentCalculator"
         }
       ]
     },
@@ -34,14 +59,24 @@
       "sectionTitle": "Technical Solutions",
       "services": [
         {
-          "title": "Cloud Computing",
+          "title": "drahimGPT Computing",
           "subTitle": "Explore Now",
-          "image": "services.createManualAccount"
+          "image": "services.investmentGoals"
         },
         {
-          "title": "Cybersecurity",
-          "subTitle": "Secure Your Business",
-          "image": "services.createPortfolio"
+          "title": "investmentGoals",
+          "subTitle": "Explore Now",
+          "image": "services.recurringPayments"
+        },
+        {
+          "title": "recurringPayments",
+          "subTitle": "Explore Now",
+          "image": "services.zakatCalculator"
+        },
+        {
+          "title": "linkBank",
+          "subTitle": "Explore Now",
+          "image": "services.linkBank"
         }
       ]
     }

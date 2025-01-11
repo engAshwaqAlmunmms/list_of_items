@@ -25,10 +25,9 @@ struct DrahimServicesCellsView: View {
                 Text(serviceSubTitle)
                     .foregroundStyle(Color.gray)
             }
-            Spacer()
             NavigationLink("") {
                 WelcomeView()
-            }
+            }.foregroundStyle(Color.gray)
         }
     }
 }
